@@ -223,7 +223,7 @@ header hr#thread5 {
   background-size: 3em 3em; }
   #contact .form {
     background-color: black;
-    color: #ffeeff; }
+    color: grey; }
   #contact input,
   #contact textarea {
     background-color: #29152e;
@@ -232,8 +232,8 @@ header hr#thread5 {
   #contact input::placeholder {
     display: none; }
   #contact button {
-    background-color: #ffeeff;
-    color: #29152e; }
+    background-color: grey;
+    color: #ffeeff; }
   #contact button:hover {
     background-color: #29152e;
     color: #ffeeff; }

@@ -274,7 +274,7 @@ header {
 
   .form {
     background-color: black;
-    color: $lightPurple;
+    color: grey;
   }
 
   input,
@@ -289,8 +289,8 @@ header {
   }
 
   button {
-    background-color: $lightPurple;
-    color: $darkPurple;
+    background-color: grey;
+    color: $lightPurple;
   }
 
   button:hover {
