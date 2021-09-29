@@ -273,8 +273,8 @@ header {
   background-size: 3em 3em;
 
   .form {
-    background-color: black;
-    color: grey;
+    background-color: grey;
+    color: black;
   }
 
   input,
@@ -289,13 +289,13 @@ header {
   }
 
   button {
-    background-color: grey;
+    background-color: $darkPurple;
     color: $lightPurple;
   }
 
   button:hover {
-    background-color: $darkPurple;
-    color: $lightPurple;
+    background-color: $lightPurple;
+    color: $darkPurple;
   }
 }
 
@@ -365,6 +365,12 @@ footer {
   }
 }
 
-@media (min-width: 768px) {
-
+@media (max-width: 576px) {
+  #contact {
+    .form {
+      margin-left: 1.5em;
+      margin-right: 1.5em;
+      padding: 1em !important;
+    }
+  }
 }

@@ -222,8 +222,8 @@ header hr#thread5 {
   background-image: linear-gradient(#ffeeff 0.1em, transparent 0.1em), linear-gradient(90deg, #ffeeff 0.1em, transparent 0.1em);
   background-size: 3em 3em; }
   #contact .form {
-    background-color: black;
-    color: grey; }
+    background-color: grey;
+    color: black; }
   #contact input,
   #contact textarea {
     background-color: #29152e;
@@ -232,11 +232,11 @@ header hr#thread5 {
   #contact input::placeholder {
     display: none; }
   #contact button {
-    background-color: grey;
-    color: #ffeeff; }
-  #contact button:hover {
     background-color: #29152e;
     color: #ffeeff; }
+  #contact button:hover {
+    background-color: #ffeeff;
+    color: #29152e; }
 
 footer {
   background-color: grey; }
@@ -282,5 +282,10 @@ footer {
     background-color: rgba(29, 128, 159, 0.9);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem); } }
+@media (max-width: 576px) {
+  #contact .form {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    padding: 1em !important; } }
 
 /*# sourceMappingURL=sass-styles.css.map */
