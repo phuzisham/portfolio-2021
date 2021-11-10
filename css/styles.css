@@ -37,9 +37,18 @@
 .pink-text {
   color: #fc66a8; }
 
-#sidebar-wrapper {
-  background-color: #5b4c28;
-  color: black; }
+.navbar {
+  background-color: #594543; }
+
+.navbar-brand {
+  font-family: 'Six Caps', sans-serif;
+  font-size: 2rem;
+  letter-spacing: 5px; }
+
+.navbar-brand:hover .yellow-text {
+  color: #02b3a0; }
+.navbar-brand:hover .blue-text {
+  color: #fcb711; }
 
 .masthead {
   min-height: 30rem;
@@ -171,7 +180,8 @@ header hr#thread5 {
     z-index: 1; }
     .portfolio-item .caption .caption-content {
       color: #fff;
-      margin: auto 2rem 2rem; }
+      margin: auto 2rem 2rem;
+      opacity: 0; }
       .portfolio-item .caption .caption-content h2 {
         font-size: 0.8rem;
         text-transform: uppercase; }
@@ -238,6 +248,16 @@ header hr#thread5 {
     background-color: #ffeeff;
     color: #29152e; }
 
+.project {
+  background-color: #29152e;
+  color: #ffeeff; }
+  .project a {
+    color: #ffeeff; }
+  .project a:hover {
+    color: white; }
+  .project ul {
+    list-style-type: none; }
+
 footer {
   background-color: grey; }
   footer .social-link {
@@ -246,6 +266,8 @@ footer {
   footer .social-link:hover {
     background-color: #ffeeff !important;
     color: #29152e !important; }
+  footer .social-link svg {
+    margin-bottom: 2.5px; }
   footer .copy {
     font-family: 'Barcode', cursive;
     font-size: 2rem; }
@@ -264,7 +286,7 @@ footer {
       -webkit-clip-path: inset(0px);
       clip-path: inset(0px); }
       .portfolio-item .caption .caption-content {
-        transition: opacity 0.25s;
+        transition: opacity 1s;
         margin-left: 5rem;
         margin-right: 5rem;
         margin-bottom: 5rem; }
@@ -279,13 +301,15 @@ footer {
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem); }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: #a78c5f;
     -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem); } }
+    clip-path: inset(2rem); }
+  .portfolio-item:hover .caption-content {
+    opacity: 1; } }
 @media (max-width: 576px) {
   #contact .form {
     margin-left: 1.5em;
     margin-right: 1.5em;
     padding: 1em !important; } }
 
-/*# sourceMappingURL=sass-styles.css.map */
+/*# sourceMappingURL=styles.css.map */
