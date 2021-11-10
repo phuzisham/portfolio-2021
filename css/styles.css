@@ -188,8 +188,8 @@ header hr#thread5 {
   background-color: black;
   color: #a78c5f; }
   #about img {
-    float: left;
-    max-width: 300px; }
+    max-width: 100%;
+    border-radius: 13px; }
   #about hr {
     margin-top: 0; }
   #about hr#goldOne {
@@ -307,14 +307,11 @@ footer {
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem); }
   .portfolio-item:hover .caption-content {
-    opacity: 1; } }
-@media (max-width: 992px) {
-  .caption-content {
-    opacity: 0.9 !important;
-    background: #a78c5f;
-    margin: 0 !important;
-    padding: 2rem 2rem;
-    width: 100%; } }
+    opacity: 1; }
+
+  #about img {
+    float: left;
+    max-width: 300px; } }
 @media (max-width: 576px) {
   #contact .form {
     margin-left: 1.5em;

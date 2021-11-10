@@ -226,8 +226,8 @@ header {
   color: $lightGold;
 
   img {
-    float: left;
-    max-width: 300px;
+    max-width: 100%;
+    border-radius: 13px;
   }
 
   hr {
@@ -408,17 +408,24 @@ footer {
       opacity: 1;
     }
   }
-}
 
-@media (max-width: 992px) {
-  .caption-content {
-    opacity: 0.9 !important;
-    background: $lightGold;
-    margin: 0 !important;
-    padding: 2rem 2rem;
-    width: 100%;
+  #about {
+    img {
+      float: left;
+      max-width: 300px;
+    }
   }
 }
+
+// @media (max-width: 992px) {
+//   .caption-content {
+//     opacity: 0.9 !important;
+//     background: $lightGold;
+//     margin: 0 !important;
+//     padding: 2rem 2rem;
+//     width: 100%;
+//   }
+// }
 
 @media (max-width: 576px) {
   #contact {
