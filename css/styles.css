@@ -9,16 +9,6 @@
   font-weight: normal;
   font-style: normal; }
 @font-face {
-  font-family: "Kodak";
-  src: url("../assets/fonts/Kodak.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: "Monoton";
-  src: url("../assets/fonts/Monoton-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
   font-family: "MavenPro";
   src: url("../assets/fonts/MavenPro-Bold.ttf") format("truetype");
   font-weight: normal;
