@@ -18,6 +18,12 @@
   src: url("../assets/fonts/Barcode.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+p {
+  font-size: 1.2rem; }
+
+.section-title {
+  font-family: 'MavenPro', sans-serif; }
+
 .yellow-text {
   color: #fcb711; }
 
@@ -150,8 +156,7 @@ header hr#thread5 {
 #portfolio {
   background: linear-gradient(105deg, black 25%, #fcb711 25%); }
   #portfolio .section-title {
-    color: #ed222e;
-    font-family: 'MavenPro', sans-serif; }
+    color: #ed222e; }
 
 .portfolio-item {
   display: block;
@@ -173,11 +178,7 @@ header hr#thread5 {
       margin: auto 2rem 2rem;
       opacity: 0; }
       .portfolio-item .caption .caption-content h2 {
-        font-size: 0.8rem;
-        text-transform: uppercase; }
-      .portfolio-item .caption .caption-content p {
-        font-weight: 300;
-        font-size: 1.2rem; }
+        font-family: 'MavenPro', sans-serif; }
 
 #about.content-section {
   padding-top: 0;
@@ -187,9 +188,8 @@ header hr#thread5 {
   background-color: black;
   color: #a78c5f; }
   #about img {
-    float: left; }
-  #about .section-title {
-    font-family: 'MavenPro', sans-serif; }
+    float: left;
+    max-width: 300px; }
   #about hr {
     margin-top: 0; }
   #about hr#goldOne {
@@ -247,6 +247,18 @@ header hr#thread5 {
     color: white; }
   .project ul {
     list-style-type: none; }
+  .project a.btn {
+    background-color: #ffeeff;
+    border: 1px solid #ffeeff;
+    color: #29152e;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem; }
+  .project a.btn:hover {
+    background-color: #29152e;
+    color: #ffeeff; }
 
 footer {
   background-color: grey; }
@@ -296,6 +308,13 @@ footer {
     clip-path: inset(2rem); }
   .portfolio-item:hover .caption-content {
     opacity: 1; } }
+@media (max-width: 992px) {
+  .caption-content {
+    opacity: 0.9 !important;
+    background: #a78c5f;
+    margin: 0 !important;
+    padding: 2rem 2rem;
+    width: 100%; } }
 @media (max-width: 576px) {
   #contact .form {
     margin-left: 1.5em;
