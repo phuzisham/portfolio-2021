@@ -240,7 +240,8 @@ header hr#thread5 {
 
 #project {
   background-color: #594543;
-  color: white; }
+  color: white;
+  margin-top: 74px; }
   #project a {
     color: #fc66a8; }
   #project a:hover {
