@@ -34,7 +34,7 @@ p {
   color: #fc66a8; }
 
 .navbar {
-  background-color: #594543; }
+  background-color: #29152e; }
 
 .navbar-brand {
   font-family: 'Six Caps', sans-serif;
@@ -238,27 +238,26 @@ header hr#thread5 {
     background-color: #ffeeff;
     color: #29152e; }
 
-.project {
-  background-color: #29152e;
-  color: #ffeeff; }
-  .project a {
-    color: #ffeeff; }
-  .project a:hover {
-    color: white; }
-  .project ul {
+#project {
+  background-color: #594543;
+  color: white; }
+  #project a {
+    color: #fc66a8; }
+  #project a:hover {
+    color: #fcb711;
+    text-decoration: none; }
+  #project ul {
     list-style-type: none; }
-  .project a.btn {
-    background-color: #ffeeff;
-    border: 1px solid #ffeeff;
-    color: #29152e;
+  #project a.btn {
+    background-color: #02b3a0;
+    color: white;
     width: 100%;
     font-size: 1.2rem;
     font-weight: 500;
     margin-left: 0.5rem;
     margin-right: 0.5rem; }
-  .project a.btn:hover {
-    background-color: #29152e;
-    color: #ffeeff; }
+  #project a.btn:hover {
+    background-color: #fcb711; }
 
 footer {
   background-color: grey; }
@@ -269,15 +268,12 @@ footer {
     background-color: #ffeeff !important;
     color: #29152e !important; }
   footer .social-link svg {
-    margin-bottom: 2.5px; }
+    margin-bottom: 1.5px; }
   footer .copy {
     font-family: 'Barcode', cursive;
     font-size: 2rem; }
 
 @media (min-width: 992px) {
-  .masthead {
-    height: 100vh; }
-
   .portfolio-item {
     max-width: none;
     margin: 0; }
@@ -303,7 +299,7 @@ footer {
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem); }
   .portfolio-item:hover .caption {
-    background-color: #a78c5f;
+    background-color: #ed222e;
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem); }
   .portfolio-item:hover .caption-content {
