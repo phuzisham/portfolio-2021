@@ -19,7 +19,7 @@
   </nav>
 
   <!-- Project Info -->
-  <section id="project">
+  <section class="content-section" id="project">
     <div class="container">
       <div class="row py-5">
         <div class="col-4 d-none d-lg-block">
@@ -29,7 +29,7 @@
           <div class="content-section-heading text-center">
             <h2 class="section-title mb-5">Pikes Peak</h2>
           </div>
-          <p class="mb-0">This was a full site refresh built to integrate in a custom in-house CMS. The site features several CSS animations, pagination, search, and filter features. Meeting stringent accessibility checks.</p>
+          <p class="mb-0">This was a full site refresh built to integrate inside a custom in-house CMS. The site features several CSS animations, pagination, search, and filter features. Meeting stringent accessibility checks.</p>
           <h4 class="section-title my-4 yellow-text">Key Page Links:</h4>
           <ul>
             <li>
@@ -103,67 +103,15 @@
               </h5>
             </li>
           </ul>
-
-          <div class="d-flex mt-5">
-            <a href="https://gitlab.com/phuzisham/pikes-peak" class="btn" target="blank">Git Repo</a>
-            <a href="./index.html" class="btn">Return Home</a>
-          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Contact -->
-  <section class="content-section" id="contact">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 col-xl-7 p-5 form">
-          <div class="content-section-heading text-center">
-            <h2 class="section-title mb-5">Contact</h2>
-          </div>
-          <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-
-            <div class="form-floating mb-3">
-              <input class="form-control" id="name" type="text" data-sb-validations="required" />
-              <label for="name">Name</label>
-              <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-            </div>
-
-            <div class="form-floating mb-3">
-              <input class="form-control" id="email" type="email" data-sb-validations="required,email" />
-              <label for="email">Email</label>
-              <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-              <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-            </div>
-
-            <div class="form-floating mb-3">
-              <input class="form-control" id="phone" type="tel" data-sb-validations="required" />
-              <label for="phone">Phone</label>
-              <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-            </div>
-
-            <div class="form-floating mb-3">
-              <textarea class="form-control" id="message" type="text" style="height: 10rem;" data-sb-validations="required"></textarea>
-              <label for="message">Message</label>
-              <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-            </div>
-
-            <div class="d-none" id="submitSuccessMessage">
-              <div class="text-center mb-3">
-                <div class="fw-bolder">Form submission successful!</div>
-                To activate this form, sign up at
-                <br />
-                <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-              </div>
-            </div>
-
-            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-
-            <button class="btn px-5" id="submitButton" type="submit">Send</button>
-          </form>
-        </div>
-      </div>
-    </div>
+  <!-- Project buttons -->
+  <section class="py-5 project-buttons">
+    <a href="https://gitlab.com/phuzisham/pikes-peak" class="btn mx-auto mb-3 mb-md-0" target="_blank">Git Repo</a>
+    <a href="./index.html" class="btn mx-auto">Return Home</a>
   </section>
 
   <!-- Footer-->

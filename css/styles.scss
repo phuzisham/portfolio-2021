@@ -269,6 +269,10 @@ header {
     height: 7px;
     margin-bottom: 3rem;
   }
+
+  span {
+    color: $blue;
+  }
 }
 
 #contact {
@@ -306,7 +310,6 @@ header {
 #project {
   background-color: $brown;
   color: white;
-  margin-top: 74px;
 
   a {
     color: $pink;
@@ -320,15 +323,19 @@ header {
   ul {
     list-style-type: none;
   }
+}
+
+.project-buttons {
+  background: $darkPurple;
+  display: flex;
 
   a.btn {
     background-color: $blue;
     color: white;
     width: 100%;
+    max-width: 300px;
     font-size: 1.2rem;
     font-weight: 500;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
   }
 
   a.btn:hover {
@@ -410,6 +417,12 @@ footer {
       float: left;
       max-width: 300px;
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .project-buttons {
+    flex-direction: column;
   }
 }
 

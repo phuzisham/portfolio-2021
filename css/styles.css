@@ -216,6 +216,8 @@ header hr#thread5 {
     background: linear-gradient(to right, #5b4c28 0%, #a78c5f 38%, #5b4c28 55%, #a78c5f 88%, #5b4c28 100%);
     height: 7px;
     margin-bottom: 3rem; }
+  #about span {
+    color: #02b3a0; }
 
 #contact {
   background: #29152e;
@@ -240,8 +242,7 @@ header hr#thread5 {
 
 #project {
   background-color: #594543;
-  color: white;
-  margin-top: 74px; }
+  color: white; }
   #project a {
     color: #fc66a8; }
   #project a:hover {
@@ -249,15 +250,18 @@ header hr#thread5 {
     text-decoration: none; }
   #project ul {
     list-style-type: none; }
-  #project a.btn {
+
+.project-buttons {
+  background: #29152e;
+  display: flex; }
+  .project-buttons a.btn {
     background-color: #02b3a0;
     color: white;
     width: 100%;
+    max-width: 300px;
     font-size: 1.2rem;
-    font-weight: 500;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem; }
-  #project a.btn:hover {
+    font-weight: 500; }
+  .project-buttons a.btn:hover {
     background-color: #fcb711; }
 
 footer {
@@ -309,6 +313,9 @@ footer {
   #about img {
     float: left;
     max-width: 300px; } }
+@media (max-width: 768px) {
+  .project-buttons {
+    flex-direction: column; } }
 @media (max-width: 576px) {
   #contact .form {
     margin-left: 1.5em;
