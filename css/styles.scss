@@ -27,6 +27,19 @@ $blue: #02b3a0;
 $brown: #594543;
 $transparent-white: rgba(250, 250, 250, 0.7);
 
+a.btn {
+  background-color: $blue;
+  color: white;
+  width: 100%;
+  max-width: 300px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+a.btn:hover {
+  background-color: $yellow;
+}
+
 p {
   font-size: 1.2rem;
 }
@@ -328,19 +341,6 @@ header {
 .project-buttons {
   background: $darkPurple;
   display: flex;
-
-  a.btn {
-    background-color: $blue;
-    color: white;
-    width: 100%;
-    max-width: 300px;
-    font-size: 1.2rem;
-    font-weight: 500;
-  }
-
-  a.btn:hover {
-    background-color: $yellow;
-  }
 }
 
 footer {

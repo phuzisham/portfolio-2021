@@ -18,6 +18,17 @@
   src: url("../assets/fonts/Barcode.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+a.btn {
+  background-color: #02b3a0;
+  color: white;
+  width: 100%;
+  max-width: 300px;
+  font-size: 1.2rem;
+  font-weight: 500; }
+
+a.btn:hover {
+  background-color: #fcb711; }
+
 p {
   font-size: 1.2rem; }
 
@@ -254,15 +265,6 @@ header hr#thread5 {
 .project-buttons {
   background: #29152e;
   display: flex; }
-  .project-buttons a.btn {
-    background-color: #02b3a0;
-    color: white;
-    width: 100%;
-    max-width: 300px;
-    font-size: 1.2rem;
-    font-weight: 500; }
-  .project-buttons a.btn:hover {
-    background-color: #fcb711; }
 
 footer {
   background-color: grey; }
