@@ -101,9 +101,9 @@
           <div class="clearfix">
             <img src="assets/img/profile.JPG" class="mb-4 mr-0 mr-sm-4" alt="Profile image">
 
-            <p>Web developer with an eclectic background excited by learning new technologies and building awesome digital products. For the last four years I've gained experience on multiple kinds of builds, systems, and approaches. Working on sites for fortune 500 companies and small local businesses. Creating <span>HTML</span> sites using <span>CSS</span>, <span>Javascript</span>, and a <span>mobile-first</span> approach. I've also built <span>CMS</span> templates, parsed <span>JSON</span> data, consumed <span>API</span>s, managed projects, and coordinated with multinational teams. Recently I've done several <span>SEO</span> and <span>accessibility</span> optimizations for legacy sites.</p>
+            <p>Web developer with an eclectic background excited by learning new technologies and building solid digital products. For the last four years, I've gained experience on multiple kinds of builds, systems, and approaches. Working on sites for fortune 500 companies and small local businesses. Creating <span>HTML</span> sites using <span>CSS</span>, <span>Javascript</span>, and a <span>mobile-first</span> approach. I've also built <span>CMS</span> templates, parsed <span>JSON</span> data, consumed <span>API</span>s, managed projects, and coordinated with multinational teams. Recently I've done several <span>SEO</span> and <span>accessibility</span> optimizations for large legacy sites.</p>
 
-            <p>I have experience within multiple CMS types such as <span>Wordpress</span>, <span>AEM</span>, and <span>Crownpeak</span>. I thoroughly enjoy the learning and discovery process of development and finishing a sleek and intuitive digital product. Currently I am diving into <span>React</span> and improving my <span>ES6</span> skills.</p>
+            <p>I have experience within multiple CMS types such as <span>Wordpress</span>, <span>AEM</span>, and <span>Crownpeak</span>. I thoroughly enjoy the learning and discovery process of development and finishing a sleek and intuitive digital product. Currently, I am learning <span>React</span> and improving my <span>ES6</span> skills.</p>
           </div>
         </div>
       </div>
@@ -118,43 +118,27 @@
           <div class="content-section-heading text-center">
             <h2 class="section-title mb-5">Contact</h2>
           </div>
-          <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+          <form id="contactForm" data-netlify="true" name="contactForm">
 
-            <div class="form-floating mb-3">
-              <input class="form-control" id="name" type="text" data-sb-validations="required" />
+            <div class="mb-3">
+              <input class="form-control" id="name" type="text" name="name" required/>
               <label for="name">Name</label>
-              <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
             </div>
 
-            <div class="form-floating mb-3">
-              <input class="form-control" id="email" type="email" data-sb-validations="required,email" />
+            <div class="mb-3">
+              <input class="form-control" id="email" type="email" name="email" required/>
               <label for="email">Email</label>
-              <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-              <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
             </div>
 
-            <div class="form-floating mb-3">
-              <input class="form-control" id="phone" type="tel" data-sb-validations="required" />
+            <div class="mb-3">
+              <input class="form-control" id="phone" type="text" name="phone" required/>
               <label for="phone">Phone</label>
-              <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
             </div>
 
-            <div class="form-floating mb-3">
-              <textarea class="form-control" id="message" type="text" style="height: 10rem;" data-sb-validations="required"></textarea>
+            <div class="mb-3">
+              <textarea class="form-control" id="message" type="text" rows="8" name="message" required></textarea>
               <label for="message">Message</label>
-              <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
             </div>
-
-            <div class="d-none" id="submitSuccessMessage">
-              <div class="text-center mb-3">
-                <div class="fw-bolder">Form submission successful!</div>
-                To activate this form, sign up at
-                <br />
-                <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-              </div>
-            </div>
-
-            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
 
             <button class="btn px-5" id="submitButton" type="submit">Send</button>
           </form>
