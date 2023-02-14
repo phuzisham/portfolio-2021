@@ -30,41 +30,139 @@
     
   <!-- ATF STYLES -->
   <style>
-    @font-face {
-        font-family: "Mr Dafoe";
-        src: url("/assets/fonts/MrDafoe-Regular.ttf") format("truetype");
-        font-weight: normal;
-        font-style: normal;
-    }
+      @font-face {
+          font-family: "Mr Dafoe";
+          src: url("/assets/fonts/MrDafoe-Regular.ttf") format("truetype");
+          font-weight: normal;
+          font-style: normal;
+      }
 
-    @font-face {
-        font-family: "Six Caps";
-        src: url("/assets/fonts/SixCaps-Regular.ttf") format("truetype");
-        font-weight: normal;
-        font-style: normal;
-    }
+      @font-face {
+          font-family: "Six Caps";
+          src: url("/assets/fonts/SixCaps-Regular.ttf") format("truetype");
+          font-weight: normal;
+          font-style: normal;
+      }
 
-    .header-title {
-        text-align: center;
-        font-family: "Six Caps", sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 0.2em;
-        font-size: 6rem;
-        font-weight: 100;
-        line-height: 1.5;
-    }
+      .header-title {
+          text-align: center;
+          font-family: "Six Caps", sans-serif;
+          text-transform: uppercase;
+          letter-spacing: 0.2em;
+          font-size: 6rem;
+          font-weight: 100;
+          line-height: 1.5;
+      }
 
-    .header-subtitle {
-        font-family: "Mr Dafoe", cursive;
-        font-size: 4rem;
-        margin-bottom: 0;
-        color: #eb219b;
-        text-shadow: -2px -2px 0 #ffbaf2;
-        -webkit-filter: drop-shadow(3px 3px 1px #441f62);
-        -webkit-transform: skew(-5deg, -5deg);
-        font-weight: normal;
-        letter-spacing: 0.7rem;
-    }
+      .header-subtitle {
+          font-family: "Mr Dafoe", cursive;
+          font-size: 4rem;
+          margin-bottom: 0;
+          color: #eb219b;
+          text-shadow: -2px -2px 0 #ffbaf2;
+          -webkit-filter: drop-shadow(3px 3px 1px #441f62);
+          -webkit-transform: skew(-5deg, -5deg);
+          font-weight: normal;
+          letter-spacing: 0.7rem;
+      }
+
+      .yellow-text {
+          color: #fcb711;
+      }
+
+      .mb-n2 {
+          margin-bottom: -0.5rem !important;
+      }
+
+      .mb-2 {
+          margin-bottom: 0.5rem !important;
+      }
+
+      .masthead {
+          min-height: 30rem;
+          position: relative;
+          display: table;
+          width: 100%;
+          height: 100vh;
+          background-color: #594543;
+      }
+
+      .flex-column {
+          flex-direction: column !important;
+      }
+
+      .d-flex {
+          display: flex !important;
+      }
+
+      .d-block {
+          display: block !important;
+      }
+
+      .text-center {
+          text-align: center !important;
+      }
+
+      .my-auto {
+          margin-top: auto !important;
+          margin-bottom: auto !important;
+      }
+
+      header hr {
+          left: 0px;
+          width: 100%;
+          margin: 0;
+      }
+
+      header hr#thread1 {
+          border-color: #fcb711;
+          -webkit-animation: barAnimation 4s;
+          -moz-animation: barAnimation 4s;
+          -o-animation: barAnimation 4s;
+          animation: barAnimation 4s;
+          animation-delay: -2s;
+          border-width: 24px;
+      }
+
+      header hr#thread2 {
+          border-color: #ff792e;
+          -webkit-animation: barAnimation 6s;
+          -moz-animation: barAnimation 6s;
+          -o-animation: barAnimation 6s;
+          animation: barAnimation 6s;
+          animation-delay: -4s;
+          border-width: 24px;
+      }
+
+      header hr#thread3 {
+          border-color: #fc66a8;
+          -webkit-animation: barAnimation 8s;
+          -moz-animation: barAnimation 8s;
+          -o-animation: barAnimation 8s;
+          animation: barAnimation 8s;
+          animation-delay: -6s;
+          border-width: 24px;
+      }
+
+      header hr#thread4 {
+          border-color: #bec722;
+          -webkit-animation: barAnimation 10s;
+          -moz-animation: barAnimation 10s;
+          -o-animation: barAnimation 10s;
+          animation: barAnimation 10s;
+          animation-delay: -8s;
+          border-width: 24px;
+      }
+
+      header hr#thread5 {
+          border-color: #02b3a0;
+          -webkit-animation: barAnimation 12s;
+          -moz-animation: barAnimation 12s;
+          -o-animation: barAnimation 12s;
+          animation: barAnimation 12s;
+          animation-delay: -10s;
+          border-width: 24px;
+      }
   </style>
   <!-- END ATF STYLES -->
 </head>
